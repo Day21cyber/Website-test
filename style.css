@@ -7,10 +7,10 @@ body, h1, h2, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background: linear-gradient(to bottom, #420642, #000000);
+    color: #ffffff;
 }
 
 header {
@@ -42,9 +42,11 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(29, 17, 39);
+    backdrop-filter: blur(10px);
+    z-index: -1; 
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(133, 127, 127, 0.1);
 }
 
 article {
@@ -52,12 +54,12 @@ article {
 }
 
 article h2 {
-    color: #333;
+    color: #222121;
     margin-bottom: 10px;
 }
 
 article p {
-    color: #666;
+    color: #ffffff;
 }
 
 section {
@@ -65,7 +67,7 @@ section {
 }
 
 main {
-    padding-bottom: 60px;
+    padding-bottom: 60px;   
 }
 
 footer {
@@ -76,4 +78,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+a {
+    color: #fff; /* Menggunakan warna teks dari elemen induk */
+    text-decoration: none;
 }
